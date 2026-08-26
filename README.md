@@ -1,3 +1,29 @@
+# SFA — Saudi Fashion (Frontend Prototype)
+
+A frontend-only e-commerce prototype for **SFA (Saudi Fashion)**, built with React, React Router, and Tailwind CSS. Includes a full clickable navigation flow across the homepage, category listing, brand directory, brand storefronts, product details, and cart — with a live English/Arabic language switcher and dummy data throughout (no backend, API, or payment integration).
+
+## Screenshots
+
+### Homepage
+![Homepage](screenshots/home.jpg)
+
+### Category listing (Women's products)
+![Category listing](screenshots/category-listing.jpg)
+
+### Brands directory
+![Brands directory](screenshots/brands-directory.jpg)
+
+### Brand storefront
+![Brand detail](screenshots/brand-detail.jpg)
+
+### Product detail
+![Product detail](screenshots/product-detail.jpg)
+
+### Shopping cart
+![Shopping cart](screenshots/cart.jpg)
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
