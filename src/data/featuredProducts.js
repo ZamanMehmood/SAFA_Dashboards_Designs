@@ -1,0 +1,115 @@
+export const productFilters = [
+  { id: 'perfumes', labelKey: 'filter.perfumes' },
+  { id: 'accessories', labelKey: 'filter.accessories' },
+  { id: 'children', labelKey: 'filter.children' },
+  { id: 'my-men', labelKey: 'filter.myMen' },
+  { id: 'female', labelKey: 'filter.female' },
+];
+
+export const defaultProductFilter = 'female';
+
+const CARE_INSTRUCTIONS = {
+  en: 'Dry clean only to preserve fabric quality.',
+  ar: 'التنظيف الجاف فقط للحفاظ على جودة القماش.',
+};
+
+export const featuredProducts = [
+  {
+    id: 'black-silk-abaya',
+    brand: { en: 'Amber', ar: 'عنبر' },
+    brandHref: '/brands/amber',
+    title: { en: 'Black silk abaya', ar: 'عباية من الحرير الأسود' },
+    price: { en: '1,250 SAR', ar: '1,250 ر.س' },
+    rating: 4.9,
+    reviewCount: 85,
+    href: '/products/black-silk-abaya',
+    category: 'female',
+    description: {
+      en: 'A luxurious abaya crafted from natural silk, featuring a modern classic silhouette with delicate embroidery along the edges. Lightweight and elegant, perfect for formal occasions.',
+      ar: 'عباية فاخرة مصنوعة من الحرير الطبيعي، بتصميم كلاسيكي عصري وتطريز دقيق على الأطراف. خفيفة الوزن وأنيقة، مثالية للمناسبات الرسمية.',
+    },
+    careInstructions: CARE_INSTRUCTIONS,
+    colors: [
+      { name: { en: 'Black', ar: 'أسود' }, hex: '#1a1a1a' },
+      { name: { en: 'Sage', ar: 'أخضر فاتح' }, hex: '#b7c9a8' },
+      { name: { en: 'Navy', ar: 'كحلي' }, hex: '#1c2b4a' },
+    ],
+    defaultColorIndex: 0,
+    sizes: ['XXL', 'XL', 'L', 'M', 'S'],
+    defaultSize: 'M',
+    stockRemaining: 5,
+  },
+  {
+    id: 'embroidered-desert-rose',
+    brand: { en: 'Juba', ar: 'جوبا' },
+    brandHref: '/brands/juba',
+    title: { en: 'Embroidered desert rose', ar: 'وردة الصحراء المطرزة' },
+    price: { en: '1,250 SAR', ar: '1,250 ر.س' },
+    rating: 4.9,
+    reviewCount: 85,
+    href: '/products/embroidered-desert-rose',
+    category: 'female',
+    description: {
+      en: 'A statement piece featuring intricate desert rose embroidery over soft crepe fabric, finished with a relaxed, flattering fit for everyday elegance.',
+      ar: 'قطعة مميزة بتطريز وردة الصحراء الدقيق على قماش الكريب الناعم، بقصة مريحة تناسب الإطلالة اليومية الأنيقة.',
+    },
+    careInstructions: CARE_INSTRUCTIONS,
+    colors: [
+      { name: { en: 'Blush', ar: 'وردي فاتح' }, hex: '#d9b3ae' },
+      { name: { en: 'Sand', ar: 'رملي' }, hex: '#e3d3b8' },
+    ],
+    defaultColorIndex: 0,
+    sizes: ['XL', 'L', 'M', 'S'],
+    defaultSize: 'M',
+    stockRemaining: 8,
+  },
+  {
+    id: 'modern-crepe-abaya',
+    brand: { en: 'Juba', ar: 'جوبا' },
+    brandHref: '/brands/juba',
+    title: { en: 'Modern crepe abaya', ar: 'عباية عصرية من الكريب' },
+    price: { en: '780 SAR', ar: '780 ر.س' },
+    rating: 4.9,
+    reviewCount: 85,
+    href: '/products/modern-crepe-abaya',
+    category: 'female',
+    description: {
+      en: 'A minimalist crepe abaya with clean lines and a relaxed drape, designed for effortless everyday wear without compromising on elegance.',
+      ar: 'عباية كريب بسيطة بخطوط نظيفة وانسدال مريح، صُممت لإطلالة يومية سهلة دون التنازل عن الأناقة.',
+    },
+    careInstructions: CARE_INSTRUCTIONS,
+    colors: [
+      { name: { en: 'Grey', ar: 'رمادي' }, hex: '#a9adb3' },
+      { name: { en: 'Black', ar: 'أسود' }, hex: '#1a1a1a' },
+    ],
+    defaultColorIndex: 0,
+    sizes: ['XL', 'L', 'M', 'S'],
+    defaultSize: 'L',
+    stockRemaining: 6,
+  },
+  {
+    id: 'linen-summer-set',
+    brand: { en: 'Amber', ar: 'عنبر' },
+    brandHref: '/brands/amber',
+    title: { en: 'Linen summer set', ar: 'طقم صيفي من الكتان' },
+    price: { en: '450 SAR', ar: '450 ر.س' },
+    rating: 4.9,
+    reviewCount: 85,
+    href: '/products/linen-summer-set',
+    category: 'female',
+    description: {
+      en: 'A luxurious two-piece crafted from natural linen, featuring a modern classic design with delicate embroidery detailing. Lightweight and breathable, perfect for warm-weather occasions. Comes with a matching wrap for effortless styling.',
+      ar: 'عباية فاخرة مصنوعة من الحرير الطبيعي، تمتاز بتصميم كلاسيكي عصري وتطريز دقيق على الأطراف. خفيفة الوزن ومثالية للمناسبات الرسمية والفعاليات الراقية. تأتي مع طرحة مطابقة تصمم لتناسق مريح وأناقة.',
+    },
+    careInstructions: { en: 'Dry clean only to preserve the linen quality.', ar: 'التنظيف الجاف فقط للحفاظ على جودة الحرير.' },
+    colors: [
+      { name: { en: 'Maroon', ar: 'خمري' }, hex: '#7a1f2b' },
+      { name: { en: 'Sage', ar: 'أخضر فاتح' }, hex: '#c3d1ac' },
+      { name: { en: 'Navy', ar: 'كحلي' }, hex: '#1c2b4a' },
+    ],
+    defaultColorIndex: 2,
+    sizes: ['XXL', 'XL', 'L', 'M', 'S'],
+    defaultSize: 'S',
+    stockRemaining: 5,
+  },
+];
