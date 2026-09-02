@@ -1,0 +1,81 @@
+import { placeholderImage } from '../utils/placeholder'
+
+export const brands = [
+  {
+    id: 'brand-joba',
+    name: 'Joba',
+    slug: 'joba',
+    logo: placeholderImage('Joba', { bg: '5C1A3B' }),
+    description:
+      'Shop the latest Saudi abaya trends in black and colored designs, crafted from premium fabrics and finishes, with free delivery and the best prices for every occasion.',
+    productCount: 273,
+    rating: 4.9,
+    reviewCount: 85,
+    status: 'active',
+    joinedDate: '2022-03-11',
+  },
+  {
+    id: 'brand-anbar',
+    name: 'Anbar',
+    slug: 'anbar',
+    logo: placeholderImage('Anbar', { bg: 'A97C2F' }),
+    description: 'Contemporary abayas and formal wear with a modern Saudi silhouette.',
+    productCount: 164,
+    rating: 4.8,
+    reviewCount: 62,
+    status: 'active',
+    joinedDate: '2022-06-02',
+  },
+  {
+    id: 'brand-samar-shop',
+    name: 'Samar Shop',
+    slug: 'samar-shop',
+    logo: placeholderImage('Samar', { bg: '3B6FA0' }),
+    description: 'Unisex streetwear and everyday essentials for the whole family.',
+    productCount: 98,
+    rating: 4.6,
+    reviewCount: 40,
+    status: 'active',
+    joinedDate: '2023-01-20',
+  },
+  {
+    id: 'brand-naseej',
+    name: 'Naseej',
+    slug: 'naseej',
+    logo: placeholderImage('Naseej', { bg: '1B8A63' }),
+    description: 'Heritage-inspired thobes and menswear woven from natural fibers.',
+    productCount: 71,
+    rating: 4.7,
+    reviewCount: 33,
+    status: 'active',
+    joinedDate: '2023-02-14',
+  },
+  {
+    id: 'brand-lamsa-style',
+    name: 'Lamsa Style',
+    slug: 'lamsa-style',
+    logo: placeholderImage('Lamsa', { bg: 'B8843A' }),
+    description: "Men's accessories and agal styling pieces.",
+    productCount: 45,
+    rating: 4.5,
+    reviewCount: 21,
+    status: 'inactive',
+    joinedDate: '2023-05-09',
+  },
+  {
+    id: 'brand-thawbi',
+    name: 'Thawbi',
+    slug: 'thawbi',
+    logo: placeholderImage('Thawbi', { bg: 'D64545' }),
+    description: 'Tailored thobes with a focus on premium Saudi craftsmanship.',
+    productCount: 58,
+    rating: 4.8,
+    reviewCount: 29,
+    status: 'active',
+    joinedDate: '2023-07-30',
+  },
+]
+
+export function getBrandById(id) {
+  return brands.find((b) => b.id === id)
+}
